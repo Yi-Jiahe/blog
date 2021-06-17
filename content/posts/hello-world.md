@@ -1,0 +1,10 @@
+---
+title: "Hello World"
+date: 2021-06-17T11:37:31+08:00
+draft: false
+---
+Till now, I have been sharing my successes and completed projects on my portfolio at https://www.jiahe.dev, which you may want to take a look at. However, projects are never smooth sailing and some ideas have never seen the light of day. This blog is made for such projects, to document their progress regardless and for me to share my thoughts.
+
+On that note, a couple of long running projects I have had which are receiving my attention at the moment are my audio effects platform and drone development and simulation project. A quick introduction to both of them, the audio effects platform aims to be a flexible hardware platform for implementing digital audio effects for electronic instruments, paired with some visualization tools. The drone development and simuation project is more of an exploration into the toolchains and building a workflow utilizing them.
+
+Anyway, I'd like to end off this short post by saying that this blog in itself was not a straightforward process. I started off looking at some popular options for webpage design and hosting like Wix and Wordpress, but was turned away by the monthly costs. I turned to GitHub Pages because its what I used for my portfolio, but I wanted to see if I could do a bit more. I took a look at static site generators and while Jerkyll is supported by GitHub pages, it is not officially supported for Windows which is what I use on a day to day basis. I decided to go with Hugo because it was one of the more popular options with supposedly really quick generation times as compared to options like Next.js which I deemed overkill for a blog. At the time of writing it should still only be accessible via the GitHub pages link, but if all goes well, I plan to use Terraform to have Amazaon Route 53 associate blog.jiahe.dev to it so it can be accessed from there.
