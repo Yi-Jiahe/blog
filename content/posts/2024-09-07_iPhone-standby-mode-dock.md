@@ -1,7 +1,6 @@
 ---
 title: "iPhone Standby Mode Dock"
 date: 2024-09-07T14:49:21+08:00
-draft: true
 ---
 
 My brother shared this [iPhone Standby Mode Dock](https://www.youtube.com/watch?v=L3nWw8qSYgk) with me and asked me to print it. 
@@ -54,3 +53,30 @@ I updated my stream to
 I also updated the output codec to libx264 `-f mpegts -codec:v libx264` which seems to work fine for YouTube, plus some extra settings I was recommended by Perplexity `-preset ultrafast -b:v 1000k`.
 
 Finally stream to my desktop by UDP `udp://{desktop-ip}:23000` at some random port with my desktop's IP on my TailScale network.
+
+# Salvaging failed prints
+
+Monitoring is all well and good, but it doesn't fix the problems inherent with my printer.
+
+About a third of the way the first print, about 5 hours in, the filament got caught because it wasn't spooled right.
+After the fact I remembered that I should probably have fixed the spooling before inserting the filament and starting the print.
+
+The first third of the print wasn't quite enough to support the phone yet, so I sliced the model partway up and continued the print.
+
+The second print failed again about another third in because the print wasn't securely attached to the print bed.
+I destroyed my last print bed by having the extruder too close to the bed, so I choose to err on the side of further away this time, especially because my first print had already deformed the bed a little.
+I had also gotten tired of recalibrating the print bed every print, so I eyeballed the bed leveling.
+The first layer looked like it was alright, so I let the print be.
+The print ended up detaching itself from the print bed before it was ready.
+
+Not wanting to waste the time and plastic I had already invested, I whipped out my soldering iron with a flat head attachment and welded the two halves together.
+
+# Conclusion
+
+The "finished" product works well enough, if a little ugly and somewhat subpar.
+
+Importantly for me was that:
+
+1) It doesn't topple with a phone in it.
+2) It's able to locate the charger and not have it get ripped out when removing he phone.
+3) The one I was most worried about, the cable can be threaded through the guide.
