@@ -1,4 +1,4 @@
-baseURL = "https://yi-jiahe.github.io/blog/"
+baseURL = "https://blog.jiahe.dev"
 languageCode = "en-us"
 title = "Jiahe's Blog"
 theme = "hugo-theme-fuji"
