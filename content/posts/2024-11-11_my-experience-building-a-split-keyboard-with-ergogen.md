@@ -40,7 +40,7 @@ Instead I went with a carrying handle which I saw in another design and quite li
 The most important manufacturing requirement for me, which will come in later, is that the components should be assembled by the PCB manufacturer where possible, saving me effort in the assembly and reducing the chance of errors.
 For the layout portion, this mostly meant that I could use SMD components which meant more flexibility in the component placement with less interference between components.
 
-![Layout prototypes](../images/2024-11-11_palatte58-layout-prototypes.jpg)
+![Layout prototypes](/images/2024-11-11_palatte58-layout-prototypes.jpg)
 
 Another technique I liked was printing out layouts and cutting them out of cardboard to test the feel of the physical board.
 Instead of printer, however, I own a 3D printer and I figured it would be less finicky than cutting out keys from cardboard, so my prototypes were made of filament.
@@ -133,7 +133,7 @@ The combined board however incurred extra costs in terms of size.
 
 My preliminary tests showed that it would be cheaper to combine both halves, and I figured it made sense, so I modified the original outline a little to accommodate it and added a v-cut. The result is as below.
 
-![Manufacturing attempt 1](../images/2024-11-10_Palette58-joined.jpg)
+![Manufacturing attempt 1](/images/2024-11-10_Palette58-joined.jpg)
 
 Unfortunately after submitted the board, I discovered that it was considered this as having multiple designs, incurring additional costs which put it at as much if not more than ordering the two halves separately.
 This put it as close to the same cost as ordering the halves separately.
