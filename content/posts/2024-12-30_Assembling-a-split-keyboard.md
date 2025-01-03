@@ -4,11 +4,11 @@ date: 2024-12-30T10:33:41+08:00
 draft: true
 ---
 
-# Recap
+## Recap
 
 Previously on the series, I prepared the layout and PCB of the Palette 58 with Ergogen and Kicad. Since then, I have gotten the design manufactured and assembled.
 
-# Setbacks
+## Setbacks
 
 My original deisgn had a couple of untested designs, which unfortuntately did not quite work out as planned.
 
@@ -22,7 +22,7 @@ Removing these extra features simplified the PCB significantly, allowing me to r
 
 Assembling the original board, I found that I needed to avoid using pin headers with the spacers to keep the height of the controller and screen in-line with the keycaps. In order to reduce the height of the controller, I decided to test a method of using diode legs as pin headers. This was a terrible mistake however, as the diode legs led to poor contact and I needed to prepare another controller with proper headers for testing.
 
-# Assembly
+## Assembly
 
 Before assembling the second design, I decided to salvage the parts from the failed board. Reusing the hotswap sockets was relatively simple, I heated up one side while lifting it up, repeating it on the other. The diode leg controller wasn't too difficult either as the pins were all separate and came out easily. The main issue I faced was cleaning out the solder from the holes, which took multiple attemps.
 

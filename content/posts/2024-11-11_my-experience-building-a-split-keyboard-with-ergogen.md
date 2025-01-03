@@ -8,7 +8,7 @@ Having dipped my toes in PCB design and manufacturing with the TentaOne, I figur
 Ever since I first saw the Dactyl in 2022, I've wanted to own a split keyboard.
 Not so much for the supposed ergonomic benefits, but more so because of the uniqueness and maker bragging rights.
 
-# The Goldilocks board
+## The Goldilocks board
 
 Split keyboards come in many flavours, with popular designs like the Sofle, Corne, etc.
 The common boards can be bought from some sellers and even prebuilt, but they're quite costly.
@@ -17,7 +17,7 @@ The boards are often open source too, meant to allow you to send the boards to t
 
 At this point I figured, why not design my own board to fit in all the features I wanted?
 
-# Design 
+## Design 
 
 I started with a few design goals, and constraints.
 
@@ -50,7 +50,7 @@ The result is an aggressive pinky stagger which feels comfortable in my hands' t
 
 As an aside, I also tried out Ergopad, but I found it incredibly awkward to use. 
 
-# Layout as Code
+## Layout as Code
 
 For the TentaOne, I used EasyEda because the component libraries from JLCPCB's stock were easy to find and I had a lot of difficulty finding the symbols and footprints in other software.
 However, My experience with EasyEda for the TentaOne left me with a few pain points.
@@ -73,7 +73,7 @@ It's easier than having to solder the components yourself (they're not shy from 
 
 At this point I switched over to the Ergogen CLI which made it more difficult to view the points, but allowed me to add my own layouts and streamlined the PCB design phase.
 
-# PCB generation
+## PCB generation
 
 The first order of business was preparing a footprint for my switches.
 Overall this was a rather straightforward, but it really helped me to appreciate teh code generation and text (lisp) based structure of Kicad PCB files.
@@ -87,7 +87,7 @@ The value was important more so for the manufacturing because it made it easier 
 
 The rest of the process was a rather repetitive process of preparing footprints and laying out components.
 
-# Routing
+## Routing
 
 For the TentaOne, I didn't give the thought of routing the PCB manually any time at all before heading to the auto router, with workable results.
 
@@ -113,7 +113,7 @@ This makes cutting traces easier as it should mean that you shouldn't run up aga
 I think adding the traces to a bus might also make it easier to cross.
 Additionally, the planes would be split more regularly, making it easier to connect them if they end up disconnected.
 
-# Mirroring
+## Mirroring
 
 Now that I was confident I could manufacture half of the board, I decided to explore how Ergogen simplified generating the other half.
 
@@ -126,7 +126,7 @@ I suppose this was minor considering that most importantly, the switch footprint
 Nevertheless, some experimentation led me to understand that the mirroring only affected the translated or rotated components. 
 While examples were space, reading the documentation and fiddling with the configs, I discovered the resist property which allowed me to use the same relative positions of the per key components on both sides of the board.
 
-# Manufacturing
+## Manufacturing
 
 Before mirroring the board, I had already uploaded some samples to figure out if it would be significantly cheaper to manufacture both halves together given the engineering costs, setup costs and part switching would not be duplicated. 
 The combined board however incurred extra costs in terms of size.

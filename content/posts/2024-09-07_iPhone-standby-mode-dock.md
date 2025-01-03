@@ -6,7 +6,7 @@ date: 2024-09-07T14:49:21+08:00
 My brother shared this [iPhone Standby Mode Dock](https://www.youtube.com/watch?v=L3nWw8qSYgk) with me and asked me to print it. 
 My printer, however, is seldom used and poorly maintained so I wanted to modify the model to increase the chances of it printing successfully.
 
-# Design
+## Design
 
 Scott kindly shared the [models](https://makerworld.com/en/models/615378#profileId-538769) for non-commercial use.
 Because the files were not in an easily editable format, I created a new editable CAD [document](https://cad.onshape.com/documents/088aba448095a55b0cefb778/w/61f07337c3a206c3a56a4a47/e/3ef5bf1044b6f81334bc4e6d).
@@ -24,7 +24,7 @@ I fixed the orientation allowed for the phone with a cutout for the speaker and 
 
 The channel for the charger cable was a little tricky to design because I wanted to angle it to have a gentle curve so as not to damage the cable.
 
-# Print monitoring
+## Print monitoring
 
 Since the last time I used my printer, I acquired a Raspberry Pi 5 for my home server.
 Conveniently it is located close enough to my printer, so I repurposed it and by webcam to monitor my printer.
@@ -54,7 +54,7 @@ I also updated the output codec to libx264 `-f mpegts -codec:v libx264` which se
 
 Finally stream to my desktop by UDP `udp://{desktop-ip}:23000` at some random port with my desktop's IP on my TailScale network.
 
-# Salvaging failed prints
+## Salvaging failed prints
 
 Monitoring is all well and good, but it doesn't fix the problems inherent with my printer.
 
@@ -71,7 +71,7 @@ The print ended up detaching itself from the print bed before it was ready.
 
 Not wanting to waste the time and plastic I had already invested, I whipped out my soldering iron with a flat head attachment and welded the two halves together.
 
-# Conclusion
+## Conclusion
 
 The "finished" product works well enough, if a little ugly and somewhat subpar.
 
