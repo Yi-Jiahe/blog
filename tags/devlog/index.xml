@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devlog on Jiahe's Blog</title><link>https://blog.jiahe.dev/tags/devlog/</link><description>Recent content in Devlog on Jiahe's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2025 09:05:39 +0800</lastBuildDate><atom:link href="https://blog.jiahe.dev/tags/devlog/index.xml" rel="self" type="application/rss+xml"/><item><title>TentaTwo Devlog #1</title><link>https://blog.jiahe.dev/posts/2025-02-27_tentatwo_devlog%231/</link><pubDate>Thu, 27 Feb 2025 09:05:39 +0800</pubDate><guid>https://blog.jiahe.dev/posts/2025-02-27_tentatwo_devlog%231/</guid><description>&lt;p>Having used the TentaOne for almost half a year now, I have come to believe that a new design would be more appropriate than a revision.
+With that, I decided to mark the start of development on the TentaTwo.&lt;/p>
+&lt;h2 id="learning-points-fron-the-tentaone">Learning points fron the TentaOne&lt;/h2>
+&lt;p>To understand the design choices made with the TentaTwo, it is important to understand the pain points from the TentaOne which motivated them.&lt;/p>
+&lt;h3 id="keymap-is-difficult-to-remember">Keymap is difficult to remember&lt;/h3>
+&lt;p>A macropad allows the collection of highly varied actions onto a single device.
+When designing the TentaOne, I figured that the most important thing was to provide enough keys such that there would be room to add as many macros one desired.
+I believed that the layout could be improved over time and learnt with practice.&lt;/p></description></item></channel></rss>
