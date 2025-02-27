@@ -1,6 +1,7 @@
 ---
 title: "Redis Persistence in Kubernetes"
 date: 2024-09-07T16:07:02+08:00
+slug: 1725696422
 ---
 
 Some time ago [fwmcbaubau.com](fwmcbaubau.com) experienced data loss multiple times in a short time span due to the lack of persistent storage.

@@ -1,6 +1,7 @@
 ---
 title: "TentaTwo Devlog #1"
 date: 2025-02-27T09:05:39+08:00
+slug: 1740618339
 tags:
  - TentaTwo
  - Devlog

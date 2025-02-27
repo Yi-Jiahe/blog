@@ -1,6 +1,7 @@
 ---
 title: "SQLite3 and Go"
 date: 2023-08-10T03:33:04Z
+slug: 1691638384
 ---
 
 # The issue

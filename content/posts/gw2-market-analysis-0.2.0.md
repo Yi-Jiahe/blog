@@ -1,6 +1,7 @@
 ---
 title: "Gw2 Market Analysis 0.2.0"
 date: 2021-11-06T23:21:24+08:00
+slug: 1636212084
 tags: ["Web App", "Java", "Order Book"]
 draft: false
 ---

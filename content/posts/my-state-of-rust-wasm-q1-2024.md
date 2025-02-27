@@ -1,6 +1,7 @@
 ---
 title: "[Opinion] My State of Rust Wasm Q1 2024"
 date: 2024-03-06T20:33:20+08:00
+slug: 1709728400
 draft: true
 ---
 

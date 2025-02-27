@@ -1,6 +1,7 @@
 ---
 title: "Hello World"
 date: 2021-06-17T11:37:31+08:00
+slug: 1623901051
 categories: ["Admin"]
 tags: ["Meta"]
 draft: false

@@ -2,6 +2,7 @@
 title: "Assembling a Split Keyboard"
 date: 2024-12-30T10:33:41+08:00
 draft: true
+slug: 1735526021
 ---
 
 ## Recap

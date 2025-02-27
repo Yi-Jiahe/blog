@@ -1,6 +1,7 @@
 ---
 title: "Little Miners Poc"
 date: 2024-03-06T20:09:05+08:00
+slug: 1709726945
 ---
 
 Last Friday, I thought up a grand plan on how I could challenge the current state of mobile anime games. 

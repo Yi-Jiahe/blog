@@ -1,6 +1,7 @@
 ---
 title: "Sound Site Conception"
 date: 2021-11-06T22:45:44+08:00
+slug: 1636209944
 tags: ["Audio", "Web App"]
 draft: false
 ---

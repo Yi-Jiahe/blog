@@ -1,6 +1,7 @@
 ---
 title: "Ttgo T5 V2 3"
 date: 2023-07-30T21:05:01+08:00
+slug: 1690722301
 draft: false
 tags: ["Embedded", "eInk"]
 ---

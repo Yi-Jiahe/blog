@@ -1,6 +1,7 @@
 ---
 title: "Hello Blog"
 date: 2021-06-18T11:37:24+08:00
+slug: 1623987444
 categories: ["Admin"]
 tags: ["Meta", "Audio", "Drone"]
 draft: false

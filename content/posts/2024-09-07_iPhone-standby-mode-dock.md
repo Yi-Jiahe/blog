@@ -1,6 +1,7 @@
 ---
 title: "iPhone Standby Mode Dock"
 date: 2024-09-07T14:49:21+08:00
+slug: 1725691761
 ---
 
 My brother shared this [iPhone Standby Mode Dock](https://www.youtube.com/watch?v=L3nWw8qSYgk) with me and asked me to print it. 

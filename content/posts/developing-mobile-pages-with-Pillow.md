@@ -1,6 +1,7 @@
 ---
 title: "Developing Mobile Pages With Pillow"
 date: 2023-08-10T05:14:09Z
+slug: 1691644449
 ---
 
 # Background

@@ -1,6 +1,7 @@
 ---
 title: "Garmin Watchface"
 date: 2022-08-23T22:29:08+08:00
+slug: 1661264948
 draft: false
 ---
 
