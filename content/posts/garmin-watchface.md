@@ -2,7 +2,12 @@
 title: "Garmin Watchface"
 date: 2022-08-23T22:29:08+08:00
 slug: 1661264948
-draft: false
+tags:
+  - Wearable Tech
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079238827754303
 ---
 
 At the end of May I got a new running watch, specifically the Garmin Forerunner 55 since I had started running a couple of weeks before to prepare for my IPPT and I didn't want to run with my phone and the GPS tracking was also quite bad. Having gotten a new fitness tracker, the first thing I did was of course to find out how to develop on it.

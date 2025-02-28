@@ -5,6 +5,10 @@ slug: 1740618339
 tags:
  - TentaTwo
  - Devlog
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079304286864307
 ---
 
 Having used the TentaOne for almost half a year now, I have come to believe that a new design would be more appropriate than a revision. 

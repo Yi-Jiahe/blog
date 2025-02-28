@@ -2,8 +2,11 @@
 title: "Sound Site Conception"
 date: 2021-11-06T22:45:44+08:00
 slug: 1636209944
-tags: ["Audio", "Web App"]
-draft: false
+tags: ["Audio", "Web"]
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079220050561504
 ---
 
 [Sound site](https://github.com/Yi-Jiahe/soundsite), (read: sound sight), is a small project I worked on a bit in late June, exploring the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API). The idea was to make a easily accessible way for people to visualize sound and explore the effects of audio effects on the waveform.

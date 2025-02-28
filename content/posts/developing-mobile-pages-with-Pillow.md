@@ -2,9 +2,19 @@
 title: "Developing Mobile Pages With Pillow"
 date: 2023-08-10T05:14:09Z
 slug: 1691644449
+tags:
+  - Cloud
+  - Python
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079272481849387
 ---
 
-# Background
+This is a follow up post to the one I made about the [TTGO T5 v2.2](https://blog.jiahe.dev/posts/1690722301/). 
+The aim was to prepare images and make them available for display.
+
+## Background
 
 At this point I had a Lambda function for converting image data to binary data directly usable by the epdiy Arduino library using Pillow.
 
@@ -17,7 +27,7 @@ However, I had a few concerns about this approach:
 
 While these concerns could be alievated to some degree by hosting a local server serving custom designed pages, it is more moving parts.
 
-# The solution
+## The solution
 
 In order to reduce the complexity of the solution, I decided to implement the image generation with Pillow.
 
@@ -27,13 +37,13 @@ From there I decided to take inspiration from a website I visited at the desired
 
 Combined with a cleaner font and some adjustments such as larger thumbnails at the cost of padding to cater to the smaller screen with no colours made for a much better presentation.
 
-# Takeaways
+## Takeaways
 
 Laying out elements without a framework is a little tedious because elements and their content need to be manually placed and styles need to be manually applied.
 
 Dynamically generating the layout based on variable style properties such as font sizes, paddings etc. also requires math and extra lines of code, but its quite satisfying to experiment with different values.
 
-# What's next
+## What's next
 
 While it was a learning experience, if I had to make more screens, I might be more inclined to using a UI framework to develop them as suggested above.
 

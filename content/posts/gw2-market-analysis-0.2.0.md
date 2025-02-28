@@ -2,8 +2,11 @@
 title: "Gw2 Market Analysis 0.2.0"
 date: 2021-11-06T23:21:24+08:00
 slug: 1636212084
-tags: ["Web App", "Java", "Order Book"]
-draft: false
+tags: ["Web App", "Java"]
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079224412516986
 ---
 Financial Data is difficult to get. Its often rate limited, or charged by the number of API calls. On top of that, one needs to be on top of things to understand what they mean. In order to get my toes wet, I decided to explore the GW2 API and the BLTC, or in-game aution house to get some practical experience on how quantitative analysis and markets work.
 

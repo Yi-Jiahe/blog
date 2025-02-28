@@ -3,6 +3,10 @@ title: "fwmcbaubau.com"
 date: 2024-03-04T05:58:23Z
 slug: 1709531903
 tags: ["Web", "Cloud"]
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079277486557897
 ---
 
 Before we begin, check out the site at [fwmcbaubau.com](fwmcbaubau.com)!
@@ -11,7 +15,7 @@ In case you didn't visit the site or came from a future where the site is no lon
 
 fwmcbaubau.com is a website where users contribute to a global click count by clicking on a button which also plays an animation and audio.
 
-# Architecture
+## Architecture
 
 Now that we're on the same page, I'll share the architecture of the site. The site itself is statically hosted, with the assets coming from a CDN.
 
@@ -28,7 +32,7 @@ All that's left is an appeal for people to not abuse the counter.
 There is a time series of the counters and other useful metrics, making use of a prometheus server which was already running.
 With it, I am able to get an idea of how the count is growing, as well as spot unusually behavior.
 
-# Prototype
+## Prototype
 
 The counter was originally implemented as a serverless solution, using Redis Cloud and AWS Lambda.
 However, the free tier of Redis Cloud has no concurrency and cloud not handle the development traffic (just me).

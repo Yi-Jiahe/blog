@@ -2,9 +2,15 @@
 title: "SQLite3 and Go"
 date: 2023-08-10T03:33:04Z
 slug: 1691638384
+tags:
+  - Golang
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079249884710318
 ---
 
-# The issue
+## The issue
 
 Using SQLite with go using using the mattn/go-sqlite3 module requires cgo which in turn requires gcc and complicates cross-compliation.
 
@@ -18,7 +24,7 @@ Unfortunately, I was unable to find a resolution for this issue.
 
 What I decided to do, was to download the go and gcc toolchain into an alpine build image to build for alpine, as suggested by https://megamorf.gitlab.io/2019/09/08/alpine-go-builds-with-cgo-enabled/.
 
-# Sqlite3 in Go
+## Sqlite3 in Go
 
 There exists a cgo-free port of SQLite in Go, modernc.org/sqlite which can be used to avoid this issue.
 

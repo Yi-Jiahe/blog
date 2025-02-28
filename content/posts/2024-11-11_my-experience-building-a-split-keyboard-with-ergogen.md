@@ -2,6 +2,13 @@
 title: "My experience building a split keyboard in Ergogen"
 date: 2024-11-01T20:13:02+08:00
 slug: 1730463182
+tags:
+  - Electronics
+  - Keyboards
+comments:
+  mastodon:
+    instance: "mastodon.social"
+    statusId: 114079297862940289
 ---
 
 Having dipped my toes in PCB design and manufacturing with the TentaOne, I figured it was time to tackle a project that I had my eyes on for a couple of years now. 
