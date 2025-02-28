@@ -3,3 +3,13 @@ languageCode = "en-us"
 title = "Jiahe's Blog"
 theme = "hugo-theme-fuji"
 GoogleAnalytics = 'G-YVT3MYYQLK'
+
+[Menus]
+
+[[Menus.nav]]
+Name = "Home"
+URL = "https://blog.jiahe.dev"
+
+[[Menus.link]]
+Name = "GitHub"
+URL = "https://github.com/Yi-Jiahe"
