@@ -2,3 +2,4 @@ baseURL = "https://blog.jiahe.dev"
 languageCode = "en-us"
 title = "Jiahe's Blog"
 theme = "hugo-theme-fuji"
+GoogleAnalytics = 'G-YVT3MYYQLK'
